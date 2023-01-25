@@ -184,7 +184,7 @@ public class Maze {
     */ 
    public static void main (String[] args) { 
  
-	  Maze maze = new Maze (args[0], Color.white); 
+	  Maze maze = new Maze (args[0], Color.white); // Set the color of the path of the maze.
  
       System.out.println (maze.mazeHasSolution());
  
